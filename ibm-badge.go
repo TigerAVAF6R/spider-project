@@ -140,7 +140,7 @@ func printResult() {
 		}
 
 		for kSkill, vSkill := range v.Skills {
-			fmt.Printf("%s -> %s\n", kSkill, vSkill)
+			fmt.Printf("%d -> %s\n", kSkill, vSkill)
 		}
 	}
 }
