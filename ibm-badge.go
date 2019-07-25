@@ -112,7 +112,7 @@ func main() {
 
 	detailCollector.OnRequest(func(r *colly.Request) {
 		detailLink := r.URL.String()
-		fmt.Println("Visiting", detailLink)
+		//fmt.Println("Visiting", detailLink)
 		currentDetailLink = detailLink
 	})
 
